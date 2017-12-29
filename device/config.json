@@ -1,0 +1,13 @@
+{
+     "params": {
+          "keyPath": "/path/to/private.pem.key",
+          "certPath": "/path/to/certificate.pem.crt",
+          "caPath": "/path/to/root-CA.crt",
+          "clientId": "XXXXXXX",
+          "host": "XXXXXXXXX.iot.us-east-1.amazonaws.com",
+          "protocol": "mqtts",
+          "baseReconnectTimeMs": 4000,
+          "keepalive": 300,
+          "debug": false
+     }
+}
